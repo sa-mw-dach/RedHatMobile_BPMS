@@ -10,9 +10,19 @@ Setup the BPM Demo on Openshift Online:
 
 1. Create a new JBoss BPM Suite application, as simple as clicking [here](https://openshift.redhat.com/app/console/application_type/custom?&cartridges%5B%5D=https://raw.githubusercontent.com/npatel2012/cartridge-bpmPaaS-travel-agency-demo/master/metadata/manifest.yml&name=travelagency&gear_profile=medium&initial_git_url=)
 2. Login to the BPM Suite ( u:erics p: bpmsuite (admin) ) and start the travel agency process
-3. Make sure that the Business Process is working by starting a process instance via the input form provided at http://<<yourBPMApplicationDomain>>/external-client-ui-form-1.0
+3. Make sure that the Business Process is working by starting a process instance via the input form provided at http://<yourBPMApplicationDomain>/external-client-ui-form-1.0
 
 Setup Node.js Application on Red Hat Mobile (FeedHenry):
-1. Create a new node.js project
 
+1. Create a new node.js app (Cloud Code Apps > Import existing app)
+    Type: node.js
+    Name: whatever you like
+    git repos: https://github.com/eberlec/RedHatMobile_CloudApp.git
+    finish
+2. After importing the application, define an environment variable ‘OSE_BPM_DOMAIN’ pointing to the domain of your BPM application on Openshift.
+3. Deploy the Cloud Code App
 
+Setup Cordova mobile client application:
+
+1. Create a new Cordova Light app ()
+2. 
