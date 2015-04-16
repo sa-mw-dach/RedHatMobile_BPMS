@@ -1,7 +1,7 @@
 # RedHatMobile_BPMS
-Triggers BPMS process via red hat mobile.
+Trigger BPMS process from mobile app via Red Hat mobile platform.
 
-BPM travel agency process is deployed on Openshift online. The process is triggered via an App developed in Red Hat Mobile, server side mobile component either hosted on Red Hat Mobile or any node.js instance.
+BPM travel agency process is deployed on Openshift online. The process is triggered via an App developed with Red Hat Mobile, server side mobile component either hosted on Red Hat Mobile or any node.js instance.
 
 ## Setup
 __Note:__ the original BPM on OSE Demo is described at [jbossdemocentral](https://github.com/jbossdemocentral/bpms-travel-agency-demo), but there was some modification necessary therefore the code is taken from Niraj Patel's github.
