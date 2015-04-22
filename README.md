@@ -17,7 +17,7 @@ Setup Node.js Application on Red Hat Mobile (FeedHenry):
 1. Create a new node.js app (Cloud Code Apps > Import existing app):</br>
     Type: node.js<br/>
     Name: whatever you like</br>
-    git repos: https://github.com/eberlec/RedHatMobile_BPM_CloudApp.git</br>
+    git repos: https://github.com/sa-mw-dach/RedHatMobile_BPM_CloudApp.git</br>
     finish
 2. After importing the application, define an environment variable ‘OSE_BPM_DOMAIN’ pointing to the domain of your BPM application on Openshift.
 3. Deploy the Cloud Code App
@@ -27,7 +27,7 @@ Setup Cordova mobile client application:
 1. Create a new Cordova Light app (Apps > Import existing app):</br>
     Type: Cordova Light</br>
     Name: whatever you like</br>
-    git repos: https://github.com/eberlec/RedHatMobile_BPMS_CordovaClient.git</br>
+    git repos: https://github.com/sa-mw-dach/RedHatMobile_BPMS_CordovaClient.git</br>
     finish
 2. Now we just need to specify what type of client application to build (iOS, Android, Windows) and link it to the right Cloud App
 3. Build</br>
